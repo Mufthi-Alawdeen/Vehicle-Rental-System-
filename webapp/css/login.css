@@ -1,0 +1,140 @@
+
+@charset "UTF-8";
+.form-group {
+  position: relative;
+  margin-bottom: 25px;
+  overflow: hidden; }
+  .form-group:last-child {
+    margin-bottom: 0px; }
+
+
+
+
+
+
+
+
+ 
+
+
+
+h1,p {
+	 color: white;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('image/car.jpg');
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 400px;
+    backdrop-filter: blur(5px); /* Increase the blur intensity to 10px or as needed */
+     background-color: rgba(0, 0, 0, 0.3); /* Adjust the alpha (transparency) value */
+   
+    border-radius: 10px;
+    
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 160px;
+}
+/* Style the "Sign up" link */
+.login-container p a {
+    color: darkgray; /* Change the color to gray */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Style the "Sign up" link on hover (optional) */
+.login-container p a:hover {
+    color:ghostwhite; /* Change the color on hover */
+}
+
+
+.form-container {
+   
+   
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+label {
+	color : white;
+	  font-weight: bold;
+	   display: block;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+
+
+
+input[type="text"],
+input[type="password"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f8f8f8;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.form-submit {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%; /* Use 100% width to fill the container */
+    transition: background-color 0.3s; /* Add smooth hover effect */
+}
+
+.form-submit:hover {
+    background-color: #0056b3;
+}
+
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.forgot-password {
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+

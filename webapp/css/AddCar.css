@@ -1,0 +1,99 @@
+            .containerF {
+                border-radius: 5px;
+                background-color: #f2f2f2;
+                padding: 25px;
+                font-family:verdana;
+                color : #0056b3;
+                font-size:14px;
+                font-weight: bold;
+				margin-left : 25px;
+				margin-right : 25px;
+                }
+      
+           
+            
+            input[type=text], select, textarea {
+                width: 100%;
+                padding: 12px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+                margin-top: 6px;
+                margin-bottom: 16px;
+                resize: vertical;
+                }
+            input[type=number] {
+                width: 100%;
+                padding: 12px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+                margin-top: 6px;
+                margin-bottom: 16px;
+                resize: vertical;
+                }
+            input[type=file]{
+                width: 100%;
+                padding: 12px;
+                border: 1px solid #ccc;
+				box-sizing: border-box;
+                border-radius: 4px;
+                margin-top: 6px;
+                margin-bottom: 16px;
+                background-color:gray;
+                color:white;
+                }
+            input[type=reset] {
+                background-color: #800000;
+                color: white;
+                padding: 12px 35px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 17px;
+                float: right;
+                }
+
+            input[type=reset]:hover {
+                background-color: #660000;
+                }
+            #btnf {
+                background-color: #007bff;
+                color: white;
+                padding: 12px 35px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 17px;
+                }
+
+            #btnf:hover {
+                background-color: #0056b3;
+                }
+				
+			h1{
+				color :  #095d83;
+				
+				}	
+				
+
+			* {
+			  box-sizing: border-box;
+			}	
+
+			/* Create three equal columns that floats next to each other */
+			.columnx {
+			  float: left;
+			  width: 33.33%;
+			  padding: 10px;
+			  
+			}
+
+			/* Clear floats after the columns */
+			.rowxx:after {
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
+	 
+			

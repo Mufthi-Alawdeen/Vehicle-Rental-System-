@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <display-name>signup</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>AddCarservlet</display-name>
+    <servlet-name>AddCarservlet</servlet-name>
+    <jsp-file>/contactus.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddCarservlet</servlet-name>
+    <url-pattern>/AddCarservlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>admininqServlet</display-name>
+    <servlet-name>admininqServlet</servlet-name>
+    <jsp-file>/admininq.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>admininqServlet</servlet-name>
+    <url-pattern>/admininqServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+        <servlet-name>DeleteCarServlet</servlet-name>
+        <servlet-class>com.velocity.registration.DeleteCarServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteCarServlet</servlet-name>
+        <url-pattern>/DeleteCarServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
